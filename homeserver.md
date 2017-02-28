@@ -1,0 +1,4 @@
+# 家用服务器配置说明
+## ss-redir透明代理
+-- https://github.com/qious/freedom
+作为网关，应增加‘iptables -t nat -A PREROUTING -p tcp -j SHADOWSOCKS’
