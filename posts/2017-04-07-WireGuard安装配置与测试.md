@@ -1,3 +1,8 @@
+---
+title:WireGuard安装配置与测试
+author: Beny Fu
+date: 2017-04-07 17:34:04
+---
 [WireGuard](https://www.wireguard.io/)是由[ZX2C4](https://www.zx2c4.com/)开发，目前还处于开发阶段，可能会不稳定或者其他安全问题。
 
 # 1.安装WireGuard
@@ -129,7 +134,7 @@ Endpoint = demo.wireguard.io:51820
 先说我的网络环境，家用宽带电信50M光纤，上传40M，爬墙服务器是gcloud的试用机，asia-east1-c节点。
 ## 3.1 YouTube 4k测试
 * ss结果
-![ss](https://github.com/Benyjuice/blog/raw/master/picture/youtube_4k_ss.png)
+![ss](picture/youtube_4k_ss.pg)
 
 * WireGuard节点
 ![WireGuard](https://github.com/Benyjuice/blog/raw/master/picture/youtube_4k_wg.png)
