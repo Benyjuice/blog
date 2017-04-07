@@ -134,10 +134,10 @@ Endpoint = demo.wireguard.io:51820
 先说我的网络环境，家用宽带电信50M光纤，上传40M，爬墙服务器是gcloud的试用机，asia-east1-c节点。
 ## 3.1 YouTube 4k测试
 * ss结果
-![ss](picture/youtube_4k_ss.png)
+![ss](/picture/youtube_4k_ss.png)
 
 * WireGuard节点
-![WireGuard](picture/youtube_4k_wg.png)
+![WireGuard](/picture/youtube_4k_wg.png)
 
 ## 3.2 speedtest测试
 * ss结果
