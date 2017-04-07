@@ -1,7 +1,6 @@
 ---
-title:WireGuard安装配置与测试
-author: Beny Fu
-date: 2017-04-07 17:34:04
+title: WireGuard安装配置与测试
+date: 2017-07-07 17:34:04
 ---
 [WireGuard](https://www.wireguard.io/)是由[ZX2C4](https://www.zx2c4.com/)开发，目前还处于开发阶段，可能会不稳定或者其他安全问题。
 
