@@ -1,6 +1,6 @@
 ---
 title: Ubuntu install texlive
-date: 2015-04-23
+date: 2015-02-04
 ---
 ## 1.安装texlive
 ```

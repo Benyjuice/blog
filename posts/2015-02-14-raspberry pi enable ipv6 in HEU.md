@@ -1,6 +1,6 @@
 ---
 title: raspberry pi enable ipv6 in HEU
-date: 2016-03-06
+date: 2015-02-14
 ---
 #raspberry pi enable ipv6 in HEU
 
