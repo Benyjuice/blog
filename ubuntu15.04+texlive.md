@@ -1,9 +1,13 @@
+---
+title: Ubuntu install texlive
+date: 2015-04-23
+---
 ##1.安装texlive
-`
+```
 sudo apt-get install texlive-xetex latex-cjk-all
-`
+```
 ##2.安装texstudio
-`sudo apt-get install texstudio`
+```sudo apt-get install texstudio```
 
 ##3.配置texstudio
 打开texstudio
