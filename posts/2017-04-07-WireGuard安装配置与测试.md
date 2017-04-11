@@ -12,7 +12,7 @@ NixOS、OpenWRT、Void、Mac OS X（只有管理工具，没有内核模块）�
 
 下面介绍如何从源码安装WireGuard
 
-## 1.1 安转必要的工具
+## 1.1 安装必要的工具
 Ubuntu或Debian（其他发行版请参考https://www.wireguard.io/install/#option-b-compiling-from-source）
 ```bash
 sudo apt-get install libmnl-dev linux-headers-$(uname -r) build-essential pkg-config
@@ -22,7 +22,7 @@ sudo apt-get install libmnl-dev linux-headers-$(uname -r) build-essential pkg-co
 ```bash
 wget https://git.zx2c4.com/WireGuard/snapshot/WireGuard-0.0.20170324.tar.xz
 ```
-或者用```git```获取源码:
+或者用`git`获取源码:
 ```bash
 git clone https://git.zx2c4.com/WireGuard
 ```
@@ -54,7 +54,7 @@ wg set wg0 listen-port 51820 private-key /path/to/privateA peer <客户端的公
 ```
 
 ### 2.1.2 客户端配置
-客户端与服务端配置基本类似，只有开启WIreGuard的擦书不一样
+客户端与服务端配置基本类似，只有开启WIreGuard的参数不一样
 ```bash
 wg genkey > privateB #生成服务端的私钥
 wg pubkey < privateB > publicB #由私钥生成公钥
